@@ -1,0 +1,29 @@
+.footer {
+    background-color: #333333;
+    text-align: center;
+}
+
+.follow {
+    color: white;
+    font-size: 10px;
+}
+
+.social-media {
+    color: white;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+ul {
+    margin: 0;
+    list-style: none;
+}
+
+li {
+    border-right: 1px solid white;
+}
+
+.copy {
+    color: white;
+    font-size: 10px;
+}

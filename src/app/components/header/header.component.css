@@ -1,0 +1,33 @@
+.header {
+    width: 100%;
+}
+
+.logo img {
+    width: 15%;
+}
+
+.menu-nav {
+    background-color: #FFC970;
+}
+
+ul li {
+    width: 10%;
+    list-style: none;
+    cursor: pointer;
+
+}
+
+li image {
+    width: 100%;
+
+}
+
+li image:hover {
+    fill: #00579F;
+}
+
+li:hover {
+    background-color: #EBF2FF4D;
+    border-radius: 20px;
+    color: #00579F;
+}
