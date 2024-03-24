@@ -19,10 +19,6 @@ ul {
     list-style: none;
 }
 
-li {
-    border-right: 1px solid white;
-}
-
 .copy {
     color: white;
     font-size: 10px;

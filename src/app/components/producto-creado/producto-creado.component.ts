@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { ProductoGaleria } from 'src/app/interface/productoGaleria.interface';
 
 @Component({
   selector: 'app-producto-creado',
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./producto-creado.component.css']
 })
 export class ProductoCreadoComponent {
+
+  @Input() productos: ProductoGaleria[] = [];
 
 }

@@ -3,8 +3,6 @@
 }
 
 .logo {
-    box-sizing: border-box;
-    padding: 20px;
     background-color: white;
 }
 
@@ -13,35 +11,38 @@
 }
 
 .menu-nav {
-    background-color: #FFC970;
+    background-color: #ffc970;
+    max-width: 100%;
 }
 
 ul {
+    /* Puedes usar flexbox para alinear los elementos en una sola fila */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     padding: 0;
 }
 
-li {
-    width: 5%;
-    margin: 10px;
-    list-style: none;
-    cursor: pointer;
-
-
-
-
+ul li {
+    /* Utiliza flexbox nuevamente para alinear los elementos en columnas */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-li image {
-    width: 100%;
-    margin: 0 auto
-}
-
-li image:hover {
-    fill: #00579F;
+ul li svg {
+    /* Estiliza el icono que deseas mostrar arriba */
+    width: 30px;
+    /* Ajusta el tamaño según tus necesidades */
+    height: 30px;
 }
 
 li:hover {
-    background-color: #EBF2FF4D;
+    background-color: #ebf2ff4d;
     border-radius: 20px;
-    color: #00579F;
+    color: #00579f;
+}
+
+li:hover svg {
+    fill: #00579f;
 }

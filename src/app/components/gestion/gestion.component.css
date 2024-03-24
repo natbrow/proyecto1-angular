@@ -1,0 +1,24 @@
+.container {
+    background-color: white;
+    border-radius: 15px;
+    margin: 50px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+h1 {
+    padding-left: 80px;
+    font-size: 30px;
+}
+
+.col-8 {
+    margin-top: 20px;
+    padding-right: 80px;
+}
+
+.col-4 {
+
+    border-left: 1px solid #f89f22;
+    margin-bottom: 50px;
+
+}

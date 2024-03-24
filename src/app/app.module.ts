@@ -10,6 +10,8 @@ import { GaleriaComponent } from './components/galeria/galeria.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { GestionComponent } from './components/gestion/gestion.component';
 import { ProductoCreadoComponent } from './components/producto-creado/producto-creado.component';
+import { FormsModule } from '@angular/forms';
+import { FormularioComponent } from './components/formulario/formulario.component';
 
 @NgModule({
   declarations: [
@@ -19,12 +21,14 @@ import { ProductoCreadoComponent } from './components/producto-creado/producto-c
     HomeComponent,
     GaleriaComponent,
     GestionComponent,
-    ProductoCreadoComponent
+    ProductoCreadoComponent,
+    FormularioComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
