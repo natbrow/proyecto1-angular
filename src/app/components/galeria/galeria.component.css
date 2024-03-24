@@ -1,3 +1,38 @@
 .container {
     background-color: white;
 }
+
+.titulo-container {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo-container h1 {
+    font-size: 25px;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.contenedor {
+    width: 25%;
+    padding: 20px;
+
+}
+
+.contenedor img {
+    width: 100%;
+}
+
+.contenedor h1 {
+    font-size: 25px;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-between;
+}

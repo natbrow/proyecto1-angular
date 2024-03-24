@@ -6,9 +6,10 @@
     </div>
     <div class="menu-nav">
         <nav>
-            <ul class="d-flex justify-content-center  ">
+            <ul class="d-flex justify-content-center ">
 
-                <li class=" d-flex flex-column justify-content-center">
+                <li [routerLink]="['/']" routerLinkActive=" activo " [routerLinkActiveOptions]=" { exact: true }"
+                    class=" d-flex flex-column justify-content-center">
                     <svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29.67 28.6">
                         <defs>
                             <style>
@@ -24,7 +25,9 @@
                     <p class="text-center"> Home</p>
                 </li>
 
-                <li class=" d-flex flex-column text-center justify-content-center">
+                <li [routerLink]="['/productos']" routerLinkActive=" activo "
+                    [routerLinkActiveOptions]=" { exact: true }"
+                    class=" d-flex flex-column text-center justify-content-center">
                     <svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29.67 28.6">
                         <defs>
                             <style>
@@ -40,7 +43,8 @@
 
                     <p>Prods</p>
                 </li>
-                <li class=" d-flex flex-column text-center justify-content-center">
+                <li [routerLink]="['/gestion']" routerLinkActive=" activo " [routerLinkActiveOptions]=" { exact: true }"
+                    class=" d-flex flex-column text-center justify-content-center">
                     <svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29.67 28.6">
                         <defs>
                             <style>

@@ -8,6 +8,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
 import { GaleriaComponent } from './components/galeria/galeria.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { GestionComponent } from './components/gestion/gestion.component';
+import { ProductoCreadoComponent } from './components/producto-creado/producto-creado.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    GaleriaComponent
+    GaleriaComponent,
+    GestionComponent,
+    ProductoCreadoComponent
   ],
   imports: [
     BrowserModule,
