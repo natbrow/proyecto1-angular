@@ -2,6 +2,12 @@
     width: 100%;
 }
 
+.logo {
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: white;
+}
+
 .logo img {
     width: 15%;
 }
@@ -10,16 +16,24 @@
     background-color: #FFC970;
 }
 
-ul li {
-    width: 10%;
+ul {
+    padding: 0;
+}
+
+li {
+    width: 5%;
+    margin: 10px;
     list-style: none;
     cursor: pointer;
+
+
+
 
 }
 
 li image {
     width: 100%;
-
+    margin: 0 auto
 }
 
 li image:hover {
