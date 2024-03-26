@@ -20,7 +20,7 @@
                     </svg>
                     <p>{{ producto.stars }}</p>
                 </div>
-                <button>Editar</button>
+                <button [routerLink]="['/productos', producto.id]">Editar</button>
             </div>
         </div>
     </div>

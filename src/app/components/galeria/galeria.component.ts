@@ -11,7 +11,7 @@ export class GaleriaComponent {
   arrProductos: any;
   productoService = inject(ProductosService)
 
-  async ngOnInit() {
+  ngOnInit() {
     this.productoService.getAllProductos().subscribe(response => {
       console.log(response);
       this.arrProductos = response

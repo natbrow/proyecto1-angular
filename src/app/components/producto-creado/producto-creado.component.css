@@ -1,8 +1,27 @@
 .productos {
-    width: 100%;
     height: 400px;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+p {
+    color: #88848497;
 }
 
 img {
-    max-width: 200px;
+    width: 40%;
 }

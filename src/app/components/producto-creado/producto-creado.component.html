@@ -1,10 +1,10 @@
-<div class="productos">
+<div class="productos d-flex ms-5">
     <div class="producto" *ngFor="let prod of productos">
-        <p>Preview del producto:</p>
-        <img [src]="prod.ruta" alt="{{prod.nombre}}">
+        <h2 class="mb-5">Preview del producto:</h2>
+        <img [src]="prod.ruta" alt="{{ prod.nombre }}" />
         <h3>{{ prod.nombre }}</h3>
-        <h2>{{prod.precio}} €</h2>
-        <p>{{prod.descripcion}}</p>
-        <p>{{prod.opiniones}}</p>
+        <h4>{{ prod.precio }} €</h4>
+        <p>{{ prod.descripcion }}</p>
+        <p>{{ prod.opiniones }}</p>
     </div>
 </div>

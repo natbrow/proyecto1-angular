@@ -1,13 +1,18 @@
 .container {
     background-color: white;
     border-radius: 15px;
-    margin: 50px;
+    margin: 0 auto;
     padding-top: 30px;
     padding-left: 20px;
 }
 
+row {
+    display: flex;
+    align-items: center;
+}
+
 h1 {
-    padding-left: 90px;
+    padding-left: 62px;
     font-size: 30px;
 }
 
@@ -17,6 +22,7 @@ h1 {
 }
 
 .registro {
-    border-left: 1px solid #f89f22;
-    margin-bottom: 50px;
+    border-left: 2px solid #f89f22;
+    height: 500px;
+    margin: 0 auto;
 }

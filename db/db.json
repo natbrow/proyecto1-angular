@@ -1,7 +1,7 @@
 {
     "Productos": [
         {
-            "id": 1,
+            "id": "1",
             "name": "Zapatos Vintage",
             "price": 49.99,
             "description": "Bellos zapatos antiguos para Hipsters.",
@@ -9,7 +9,7 @@
             "image": "https://i.ibb.co/4j85tBM/shoes.jpg"
         },
         {
-            "id": 2,
+            "id": "2",
             "name": "Máquina de escribir",
             "price": 109.99,
             "description": "Bonita máquina de escribir antigua.",
@@ -17,7 +17,7 @@
             "image": "https://i.ibb.co/84zfbz0/maquina.jpg"
         },
         {
-            "id": 3,
+            "id": "3",
             "name": "Lapiceros de colores",
             "price": 1.99,
             "description": "Estupendos bolígrafos de colores.",
@@ -25,7 +25,7 @@
             "image": "https://i.ibb.co/s5m7HKt/lapiceros.jpg"
         },
         {
-            "id": 4,
+            "id": "4",
             "name": "Pantalón",
             "price": 49.99,
             "description": "Pantalón de moto para evitar heridas.",
@@ -33,7 +33,7 @@
             "image": "https://i.ibb.co/6nnVkNY/pantalon.jpg"
         },
         {
-            "id": 5,
+            "id": "5",
             "name": "Cuaderno de colores",
             "price": 7.25,
             "description": "Excelente cuaderno para que apuntes tus clases.",
@@ -41,7 +41,7 @@
             "image": "https://i.ibb.co/Jr3FHVd/cuaderno.jpg"
         },
         {
-            "id": 6,
+            "id": "6",
             "name": "Jarabe marca blanca",
             "price": 12.5,
             "description": "No cura el COVID, pero está muy rico.",
@@ -49,7 +49,7 @@
             "image": "https://i.ibb.co/mhgHWnf/jarabe.jpg"
         },
         {
-            "id": 7,
+            "id": "7",
             "name": "Maceta de diseño",
             "price": 9.99,
             "description": "Maceta de diseño a precio económico.",
@@ -57,7 +57,7 @@
             "image": "https://i.ibb.co/MZSrV6q/maceta.jpg"
         },
         {
-            "id": 8,
+            "id": "8",
             "name": "Gato Persa",
             "price": 100,
             "description": "No sé si es legal vender animales online...",

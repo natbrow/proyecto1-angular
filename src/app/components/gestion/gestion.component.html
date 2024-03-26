@@ -1,11 +1,11 @@
-<div class="container">
-    <div class="row">
+<div class="container mt-5 mb-5">
+    <div class="row d-flex align-items-center">
         <h1>Creacion/edición de productos</h1>
-        <div class="formulario col-8">
+        <div class="formulario col-6">
             <app-formulario (productoCreado)="onProductoCreado($event)"></app-formulario>
         </div>
 
-        <div class="registro col-4">
+        <div class="registro col-6">
             <app-producto-creado [productos]="arrProductos"></app-producto-creado>
         </div>
     </div>

@@ -13,6 +13,7 @@ import { ProductoCreadoComponent } from './components/producto-creado/producto-c
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FormularioComponent } from './components/formulario/formulario.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
+import { ProductoComponent } from './components/producto/producto.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { NotFoundComponent } from './components/not-found/not-found.component';
     GestionComponent,
     ProductoCreadoComponent,
     FormularioComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    ProductoComponent
   ],
   imports: [
     BrowserModule,
