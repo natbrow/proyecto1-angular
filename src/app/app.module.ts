@@ -10,8 +10,9 @@ import { GaleriaComponent } from './components/galeria/galeria.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { GestionComponent } from './components/gestion/gestion.component';
 import { ProductoCreadoComponent } from './components/producto-creado/producto-creado.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FormularioComponent } from './components/formulario/formulario.component';
+import { NotFoundComponent } from './components/not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -22,12 +23,14 @@ import { FormularioComponent } from './components/formulario/formulario.componen
     GaleriaComponent,
     GestionComponent,
     ProductoCreadoComponent,
-    FormularioComponent
+    FormularioComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    ReactiveFormsModule,
     FormsModule
   ],
   providers: [],

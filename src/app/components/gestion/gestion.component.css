@@ -7,18 +7,16 @@
 }
 
 h1 {
-    padding-left: 80px;
+    padding-left: 90px;
     font-size: 30px;
 }
 
-.col-8 {
+.formulario {
     margin-top: 20px;
     padding-right: 80px;
 }
 
-.col-4 {
-
+.registro {
     border-left: 1px solid #f89f22;
     margin-bottom: 50px;
-
 }

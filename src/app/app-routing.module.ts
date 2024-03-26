@@ -4,11 +4,17 @@ import { GaleriaComponent } from './components/galeria/galeria.component';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { GestionComponent } from './components/gestion/gestion.component';
+import { NotExpr } from '@angular/compiler';
+import { NotFoundComponent } from './components/not-found/not-found.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'productos', component: GaleriaComponent },
-  { path: 'gestion', component: GestionComponent }
+  { path: 'productos/:id', component: GaleriaComponent },
+  { path: 'gestion', component: GestionComponent },
+  { path: '**', redirectTo: '/404' },
+  { path: '404', component: NotFoundComponent }
+
 ];
 
 @NgModule({
