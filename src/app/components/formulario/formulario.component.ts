@@ -12,6 +12,10 @@ export class FormularioComponent {
   }
 
   @Output() productoCreado: EventEmitter<ProductoGaleria> = new EventEmitter();
+  onInputChange() {
+    // Emitimos el producto hacia el componente padre cada vez que cambia un input
+    this.productoCreado.emit(this.nuevoProducto);
+  }
 
   onClick() {
     // Emitimos el producto hacia el componente padre
@@ -20,5 +24,6 @@ export class FormularioComponent {
       nombre: '', precio: 0, descripcion: '', ruta: '', opiniones: 0
     }
   }
+
 
 }

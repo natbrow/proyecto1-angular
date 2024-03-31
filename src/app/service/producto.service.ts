@@ -1,5 +1,6 @@
 import { Injectable, inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { Producto } from '../components/galeria/interface/productos';
 
 
 
@@ -31,8 +32,11 @@ export class ProductosService {
     return this.httpClient.get(`${this.baseUrl}/${id}`)
 
   }
-  // borrarProducto(id:) {
-  //   return this.httpClient.delete()
+  crearProducto(nuevoProducto: Producto) {
+    return this.httpClient.post(`${this.baseUrl}`, nuevoProducto)
+  }
+  borrarProducto(id: string | null) {
 
-  // }
+    return this.httpClient.delete(`${this.baseUrl}/${id}`)
+  }
 }

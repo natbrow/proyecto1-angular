@@ -1,26 +1,28 @@
 <div class="container">
     <div class="mb-3">
         <label class="form-label">Nombre del producto:</label>
-        <input type="text" class="form-control" [(ngModel)]="nuevoProducto.nombre"
+        <input type="text" class="form-control" [(ngModel)]="nuevoProducto.nombre" (ngModelChange)="onInputChange()"
             placeholder="Por ej: Tiesto para planta">
     </div>
     <div class="mb-3">
         <label class="form-label">Precio:</label>
-        <input type="text" class="form-control" [(ngModel)]="nuevoProducto.precio" placeholder="Por ej 9.50">
+        <input type="text" class="form-control" [(ngModel)]="nuevoProducto.precio" (ngModelChange)="onInputChange()"
+            placeholder="Por ej 9.50">
     </div>
     <div class="mb-3">
         <label class="form-label">Descripción:</label>
         <input type="text" class="form-control" [(ngModel)]="nuevoProducto.descripcion"
-            placeholder="Por ej: Lo más vendido de este mes">
+            (ngModelChange)="onInputChange()" placeholder="Por ej: Lo más vendido de este mes">
     </div>
     <div class="mb-3">
         <label class="form-label">Ruta de la imagen:</label>
-        <input type="text" class="form-control" [(ngModel)]="nuevoProducto.ruta"
+        <input type="text" class="form-control" [(ngModel)]="nuevoProducto.ruta" (ngModelChange)="onInputChange()"
             placeholder="Por ej: http/blablabla.com.png">
     </div>
     <div class="mb-3">
         <label class="form-label">Opiniones:</label>
-        <input type="text" class="form-control" [(ngModel)]="nuevoProducto.opiniones" placeholder="Por ej: 4.28">
+        <input type="text" class="form-control" [(ngModel)]="nuevoProducto.opiniones" (ngModelChange)="onInputChange()"
+            placeholder="Por ej: 4.28">
     </div>
     <div class="boton"><button (click)="onClick()" class="btn btn-info">Guardar</button></div>
 </div>

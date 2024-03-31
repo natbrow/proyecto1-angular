@@ -1,0 +1,23 @@
+.contenedor {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.contenedor img {
+    margin-bottom: 30px;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    width: 50%;
+}

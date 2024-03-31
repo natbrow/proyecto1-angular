@@ -1,6 +1,7 @@
 {
   "name": "proyecto1-angular",
   "version": "0.0.0",
+  "author": "Ana Zabaleta y Natahaly rios",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
